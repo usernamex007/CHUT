@@ -13,18 +13,18 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("🕸️ 𝛅ʌηʌᴛʌηɪ ꭙ 𝐔sᴇꝛвσᴛ ️🕸️", url="https://t.me/SANATANI_X_ROBOT")],
+        [InlineKeyboardButton("🕸️ 𝛅ʌηʌᴛʌηɪ ꭙ 𝐔sᴇꝛвσᴛ ️🕸️", url="https://t.me/HIMANSHI_MUSIC_BOT")],
         [
             InlineKeyboardButton("❔ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ 🎶", callback_data="about")
         ],
         [
         
-            InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇ's ", url="https://t.me/all_sanatani_bot"),
+            InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇ's ", url="https://t.me/SANATANI_TECH"),
             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ⛈️️", url="https://t.me/+Ckzm2ypQyIIzZTll")
       
         ],
-        [InlineKeyboardButton("🌿 ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ 🌿", url="https://t.me/All_SANATANI_BOT/324")],
+        [InlineKeyboardButton("🌿 ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ 🌿", url="https://t.me/SANATANI_TECH")],
     ]
 
     START = """
@@ -36,7 +36,7 @@ class Data:
 ❖ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 
 ❖ sᴜᴘᴘᴏʀᴛ - ᴘʏʀᴏɢʀᴀᴍ | ᴛᴇʟᴇᴛʜᴏɴ
 •─────────────────────────•
-❖ ʙʏ : [sᴀɴᴀᴛᴀɴɪ ᴛᴇᴄʜ](https://t.me/all_sanatani_bot) 🚩**
+❖ ʙʏ : [sᴀɴᴀᴛᴀɴɪ ᴛᴇᴄʜ](https://t.me/SANATANI_TECH) 🚩**
     """
 
     HELP = """
@@ -54,11 +54,11 @@ class Data:
 **ᴀʙᴏᴜᴛ ᴛʜɪꜱ ʙᴏᴛ** 🌙
 
 ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ
-ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ʙʏ [sᴀɴᴀᴛᴀɴɪ ᴛᴇᴄʜ](https://t.me/all_sanatani_bot)
+ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ʙʏ [sᴀɴᴀᴛᴀɴɪ ᴛᴇᴄʜ](https://t.me/SANATANI_TECH)
 
 ◌ ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](https://www.python.org)
 
-◌ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [sᴀɴᴀᴛᴀɴɪ ᴛᴇᴄʜ](https://t.me/all_sanatani_bot)
+◌ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [sᴀɴᴀᴛᴀɴɪ ᴛᴇᴄʜ](https://t.me/SANATANI_TECH)
 
 ◌ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [🦋⃟‌🇸ʌᷟᴄᷣʜɪ֟፝η 🌸](https://t.me/V_VIP_OWNER)
     """
