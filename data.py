@@ -13,7 +13,7 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("🕸️ 𝛅ʌηʌᴛʌηɪ ꭙ 𝐔sᴇꝛвσᴛ ️🕸️", url="https://t.me/HIMANSHI_MUSIC_BOT")],
+        [InlineKeyboardButton("🕸️ 𝛅ʌηʌᴛʌηɪ ꭙ 𝐔sᴇꝛвσᴛ ️🕸️", url="https://t.me/SANATANI_x_ROBOT")],
         [
             InlineKeyboardButton("❔ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ 🎶", callback_data="about")
