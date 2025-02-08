@@ -9,7 +9,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "7610510597:AAFX2uCDdl48UTOHnIweeCMms25xOKF9P
 DATABASE_URL = os.getenv("DATABASE_URL", "postgres://iarfggbc:Vxzh_kG7cxa1kHR5faxcd1kuA4R-UT9E@rosie.db.elephantsql.com/iarfggbc").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "SANATANI_TECH")
 ALIVE_PIC = os.getenv("ALIVE_PIC", "https://telegra.ph/file/00eaed55184edf059dbf7.jpg")
-LOGGER = os.os.getenv("LOGGER", "").strip()
+LOGGER = os.getenv("LOGGER", "").strip()
 
 if not API_ID:
     raise SystemExit("ɴᴏ ᴀᴘɪ_ɪᴅ ꜰᴏᴜɴᴅ. ᴇxɪᴛɪɴɢ...")
