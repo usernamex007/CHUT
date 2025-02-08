@@ -2,7 +2,7 @@ import asyncio
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from env import API_ID, API_HASH, BOT_TOKEN
-from StringSessionBot import bot
+from pyrogram import Client, filters
 
 
 # 🔹 Telegram API Credentials
@@ -20,7 +20,7 @@ user_sessions = {}
 #async def start(event):
 #    await event.respond("👋 **Welcome!**\nUse **/generate** to create your Telegram session string.")
 
-@bot.on(events.NewMessage(pattern="/generate"))
+@Client.on(events.NewMessage(pattern="/generate"))
 async def ask_phone(event):
     user_id = event.sender_id
     if user_id in user_sessions:
@@ -30,7 +30,7 @@ async def ask_phone(event):
     user_sessions[user_id] = {"step": "phone"}
     await event.respond("📲 **Enter your phone number with country code (e.g., +919876543210):**")
 
-@bot.on(events.NewMessage)
+@Client.on(events.NewMessage)
 async def process_input(event):
     user_id = event.sender_id
     if user_id not in user_sessions:
