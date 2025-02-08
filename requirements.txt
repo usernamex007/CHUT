@@ -1,5 +1,4 @@
 python-dotenv==1.0.1
-python-dotenv>=0,<1
 SQLAlchemy>=1.4,<2
 psycopg2>=2,<3
 Telethon>=1,<2
