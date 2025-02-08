@@ -13,7 +13,7 @@ bot = TelegramClient("bot", API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 # 🔹 Store user sessions
 user_sessions = {}
 
-@bot.on(events.NewMessage(pattern="/hhhhstart"))
+@bot.on(events.NewMessage(pattern="/start"))
 async def start(event):
     await event.respond("👋 **Welcome!**\nUse **/generate** to create your Telegram session string.")
 
