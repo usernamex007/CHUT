@@ -2,6 +2,8 @@ import asyncio
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from env import API_ID, API_HASH, BOT_TOKEN
+from StringSessionBot import bot
+
 
 # 🔹 Telegram API Credentials
 #API_ID = "28795512"
