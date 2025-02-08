@@ -1,21 +1,22 @@
 import asyncio
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
+from env import API_ID, API_HASH, BOT_TOKEN
 
 # 🔹 Telegram API Credentials
-API_ID = "28795512"
-API_HASH = "c17e4eb6d994c9892b8a8b6bfea4042a"
-BOT_TOKEN = "7610510597:AAFX2uCDdl48UTOHnIweeCMms25xOKF9PoA"  # Replace with your Bot Token
+#API_ID = "28795512"
+#API_HASH = "c17e4eb6d994c9892b8a8b6bfea4042a"
+#BOT_TOKEN = "7610510597:AAFX2uCDdl48UTOHnIweeCMms25xOKF9PoA"  # Replace with your Bot Token
 
 # 🔹 Initialize the bot
-bot = TelegramClient("bot", API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+#bot = TelegramClient("bot", API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
 # 🔹 Store user sessions
 user_sessions = {}
 
-@bot.on(events.NewMessage(pattern="/start"))
-async def start(event):
-    await event.respond("👋 **Welcome!**\nUse **/generate** to create your Telegram session string.")
+#@bot.on(events.NewMessage(pattern="/start"))
+#async def start(event):
+#    await event.respond("👋 **Welcome!**\nUse **/generate** to create your Telegram session string.")
 
 @bot.on(events.NewMessage(pattern="/generate"))
 async def ask_phone(event):
